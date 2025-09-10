@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    color: #4a148c;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+}
+
+/* Clases para los diferentes fondos románticos */
+.fondo-romantico-1 { background-image: url('https://source.unsplash.com/random/1920x1080/?romantic,love,sunset'); }
+.fondo-romantico-2 { background-image: url('https://source.unsplash.com/random/1920x1080/?flowers,roses,pink'); }
+.fondo-romantico-3 { background-image: url('https://source.unsplash.com/random/1920x1080/?couple,stars,night'); }
+.fondo-romantico-4 { background-image: url('https://source.unsplash.com/random/1920x1080/?hearts,valentines,pastel'); }
+.fondo-romantico-5 { background-image: url('https://source.unsplash.com/random/1920x1080/?beach,lovers,sunrise'); }
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 450px;
+}
+
+h1 {
+    color: #880e4f;
+}
+
+#poema-container {
+    margin: 20px 0;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+#contador-container {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #ad1457;
+}
+
+#musica-container {
+    margin-top: 25px;
+}
+
+#reproductor-musica {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+}
